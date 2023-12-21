@@ -27,7 +27,7 @@ img{
     margin: 50px 50px;
 }
 
-@media only screen and (max-width: 765px) {
+@media (max-width: 765px) {
     
     
     h2 {
@@ -36,7 +36,6 @@ img{
     }
     
      p {
-        background-color: white;
         line-height: 1.6;
     } 
     
@@ -45,6 +44,7 @@ img{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
     
     img{
