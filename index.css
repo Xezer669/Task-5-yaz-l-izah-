@@ -12,7 +12,6 @@ h2 {
     background-color: white;
     padding: 20px;
     line-height: 1.6;
-    text-align: justify;
 } 
 
 .main {
@@ -33,7 +32,7 @@ img{
     
     
     h2 {
-        font-size: 1rem;
+        font-size: 21px;
     }
     .main {
         display: flex;
