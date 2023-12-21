@@ -5,13 +5,14 @@ body {
 
 h2 {
     color: blue;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
  p {
     background-color: white;
     padding: 20px;
     line-height: 1.6;
+    text-align: justify;
 } 
 
 .main {
@@ -19,10 +20,12 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 800px;
+    margin: auto;
 }
 
 img{
-    width: 1000px;
+    width: 900px;
     margin: 50px 50px;
 }
 
@@ -30,20 +33,12 @@ img{
     
     
     h2 {
-        color: blue;
-        font-size: 21px;
+        font-size: 1rem;
     }
-    
-     p {
-        line-height: 1.6;
-        width: 100%;
-    } 
-    
     .main {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
     }
     
     img{
