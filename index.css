@@ -1,0 +1,28 @@
+body {
+    background-color: orange;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: blue;
+    font-size: 30px;
+}
+
+ p {
+    background-color: white;
+    padding: 20px;
+    line-height: 1.6;
+} 
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+img{
+    width: 1000px;
+    margin: 50px 50px;
+}
